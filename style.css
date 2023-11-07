@@ -1,0 +1,57 @@
+header {
+    background-color: #1c2e56;
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    margin: 0px;
+    border: 2px solid #8ca8be;
+    gap: 0px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-right: 20px;
+    line-height: 1.2;
+}
+
+
+body {
+    background-color: #1c2e56;
+    color: #8ca8be;
+}
+
+.quote {
+    display: table;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    background-image: url(heart.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+}   
+
+.days-list {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-right: 20px;
+    gap: 30px;
+}
+
+.day {
+    list-style-image: none;
+    border: 3px solid #8ca8be;
+    background-color:#315098;
+    border-radius: 10px;
+    padding-left: 10px; 
+}
+
+footer {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
